@@ -1,5 +1,7 @@
 body {
   min-width: 350px;
+  font-family: sans-serif;
+
 }
 
 header {
@@ -54,7 +56,7 @@ aside img {
   width: 250px;
 }
 
-#lees {
+.lees {
   text-transform: capitalize;
   color: darkred;
   text-decoration: none;
@@ -70,6 +72,19 @@ footer {
   color: #f2c349;
   background-color: #262323;
   padding:3px;
+}
+
+#een{
+  order: 3;
+}
+#twee{
+  order: 2;
+}
+#drie{
+  order: 1;
+}
+#vier{
+  order: 4;
 }
 @media screen and (min-width: 768px) {
 
